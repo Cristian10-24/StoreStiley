@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
+import { InventoryComponent } from './components/inventory/inventory.component';
 import { PromDescComponent } from './components/prom-desc/prom-desc.component'
 import { ForgetPasswordComponent } from './components/sign-up/forget-password/forget-password.component';
 import { FormRegisterComponent } from './components/sign-up/form-register/form-register.component';
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'signUp', component: SignUpComponent, },
   { path: 'forgetPassword', component: ForgetPasswordComponent,  },
   { path: 'register', component: FormRegisterComponent, },
+  { path: 'inventory', component: InventoryComponent },
   { path: '**', pathMatch: 'full', redirectTo: ''}
 ];
 
