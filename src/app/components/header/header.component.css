@@ -5,8 +5,8 @@
 .search input:hover{ border: 3px solid green; }
 
 /***************************************** ESTILOS DEL NAVBAR 2****************************************/
-.items{ position: relative; left: 29%; }
-.ropaFemenina{ width: 100%; background-color: gray; position: absolute; left: 5px; z-index: 2; visibility: hidden; }
+.items{ position: relative; left: 22%; }
+.ropaFemenina{ width:100%; background-color: gray; position: absolute; left: 5px; z-index: 2; visibility: hidden;}
 .ropaMasculino{ width: 100%; background-color: gray; position: absolute; left: 5px; z-index: 2; visibility: hidden; }
 .PD{ width: 100%; background-color: gray; position: absolute; left: 5px; z-index: 2; visibility: hidden;}
 .ropa a{ border-bottom: 2px solid white; }
@@ -21,3 +21,15 @@
   color: black;
 }
 .Citem2:hover{ color:white; }
+
+
+
+/********************************** RESPONSIVE PARA PANTALLAS MEDIANAS********************************/
+@media (max-width:990px){
+  .ropaFemenina{
+    width:50%;
+  }
+  .ropaMasculino{
+    width:50%;
+  }
+}

@@ -4,3 +4,10 @@
 .icons{
     margin-left: 10px;
 }
+
+/********************************** RESPONSIVE PARA PANTALLAS MEDIANAS********************************/
+@media (max-width:990px){
+    .contenedor{
+        width: 50% !important;
+    }
+}
