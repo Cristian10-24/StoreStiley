@@ -1,23 +1,27 @@
-.card>img{height: 420px;}
-.anonima{display: none;}
-.btn>a{text-decoration: none; font-size: 20px;;}
-
-
-/********************************** RESPONSIVE PARA PANTALLAS PEQUEÑAS********************************/
-@media (max-width:719px){
-  .cardContainer{margin-bottom: 50px;}
-  .btn{width: 20%;position: relative;left: 80%; margin-bottom: 20px;}
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap'); 
+.container-fluid{
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: auto;
 }
+.MyV{
+  position: relative;
+  color: white;
+  padding:100px 30px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+.MyV >p{
+  font-size: 1.3rem;
+}
+div>img{
+  opacity: 0.2;
+}
+
 
 /********************************** RESPONSIVE PARA PANTALLAS MEDIANAS********************************/
-
-@media  (min-width: 720px) and (max-width:990px) {
-  .cardContainer{ width: 50% !important; margin-bottom: 50px; }
-  .anonima{ display: block; }
-  .btn{ width: 20%; position: relative; left: 80%; margin-bottom: 20px; }
-}
-
-/************************************ RESPONSIVE PARA PANATLLAS GRANDES*******************************/
-@media (min-width:991px){
-  .btn{ margin-top: 30px; width: 20%; position: relative; left: 80%; margin-bottom: 20px; }
+@media (max-width:990px){
+  .MyV{
+    padding: 20px 10px !important;
+  }
 }
