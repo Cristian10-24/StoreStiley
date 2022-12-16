@@ -25,6 +25,7 @@ import { InvoiceDetailComponent } from './components/invoice/invoice-detail/invo
 import { ScoreComponent } from './components/score/score.component';
 import { ComplaintsAndClaimsComponent } from './components/complaints-and-claims/complaints-and-claims.component';
 import { SaleHistoryComponent } from './components/sale-history/sale-history.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -52,6 +53,7 @@ import { SaleHistoryComponent } from './components/sale-history/sale-history.com
     ScoreComponent,
     ComplaintsAndClaimsComponent,
     SaleHistoryComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
