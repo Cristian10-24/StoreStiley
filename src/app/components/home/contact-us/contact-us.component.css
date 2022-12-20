@@ -1,44 +1,10 @@
-/*ubicacion */
-.ubicacion {
-    margin-bottom: 30px;
-}
-.ubicacion .titulo {
-    margin-top: 30px;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 300;
-    margin-bottom: 30px;
-}
-.ubicacion .direccion {
-    float: left;
-    width: 50%;
-    text-align: center;
-}
-.ubicacion .direccion h4 {
-    margin: 0px 0px 30px 80px;
-}
-.ubicacion .horarios {
-    float: right;
-    width: 50%;
-    text-align: center;
-}
-.ubicacion .horarios h4 {
-    text-align: center;
-    margin-bottom: 30px;
-}
-.ubicacion .horarios p {
-    float: left;
-    width: 49%;
-    text-align: center;
-}
-/*mapa */
-.mapa {
-    width: 100%;
-    height: 80vh;
-    overflow:hidden ;
-}
 .mapa iframe {
     width: 100%;
-    height: 100%;
+    height: 650px;
     max-height: 600px;
+}
+.ubicacion1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

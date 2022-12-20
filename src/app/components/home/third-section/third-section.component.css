@@ -9,10 +9,10 @@
   position: relative;
   color: white;
   padding:100px 30px;
-  font-family: 'Gloria Hallelujah', cursive;
 }
 .MyV >p{
   font-size: 1.3rem;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 div>img{
   opacity: 0.2;
