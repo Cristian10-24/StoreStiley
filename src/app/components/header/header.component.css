@@ -13,6 +13,12 @@
 .hoverMasculino:hover .ropaMasculino{ visibility: visible;}
 .hoverFemenina:hover .ropaFemenina{ visibility: visible; }
 .hoverPD:hover .PD{ visibility: visible;}
+.contenedorPadre{
+  position: relative;
+  z-index: 2;
+  height: 115px !important;
+  background-color: red;
+}
 .Citem{
   font-size: 1.1rem;
   color: white;
@@ -31,5 +37,11 @@
   }
   .ropaMasculino{
     width:50%;
+  }
+  div>input{
+    display: none;
+  }
+  .contenedorPadre{
+    height: 100px !important;
   }
 }

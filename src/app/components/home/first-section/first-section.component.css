@@ -1,7 +1,6 @@
 .anonima{display: none;}
 .btn>a{text-decoration: none; font-size: 20px;}
 
-
 /********************************** RESPONSIVE PARA PANTALLAS PEQUEÑAS********************************/
 @media (max-width:719px){
   .cardContainer{margin-bottom: 50px;}

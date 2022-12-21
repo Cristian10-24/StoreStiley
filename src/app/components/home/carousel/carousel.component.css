@@ -1,3 +1,15 @@
 div>img{
     max-height: 500px;
 }
+/********************************** RESPONSIVE PARA PANTALLAS MEDIANAS********************************/
+@media (max-width:900px){
+    .carrusel{
+        top: 15vh !important;
+    }
+}
+/********************************** RESPONSIVE PARA PANTALLAS GRANDES********************************/
+@media (max-width:1200px){
+    .carrusel{
+        top: 15vh !important;
+    }
+}
