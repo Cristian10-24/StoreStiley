@@ -1,21 +1,45 @@
-.anonima{display: none;}
-.btn>a{text-decoration: none; font-size: 20px;}
-
-/********************************** RESPONSIVE PARA PANTALLAS PEQUEÑAS********************************/
-@media (max-width:719px){
-  .cardContainer{margin-bottom: 50px;}
-  .btn{width: 20%;position: relative;left: 80%;}
+.infoMasculino, .infoFemenino{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 1px;
+  z-index: 1;
+  visibility: hidden;
 }
-
-/********************************** RESPONSIVE PARA PANTALLAS MEDIANAS********************************/
-
-@media  (min-width: 720px) and (max-width:990px) {
-  .cardContainer{ width: 50% !important; margin-bottom: 50px; }
-  .anonima{ display: block; }
-  .btn{ width: 20%; position: relative; left: 80%; }
+.infoRInterior, .infoCamisas, .infoSudaderas, .infoBlusas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 1px;
+  z-index: 1;
+  visibility: hidden;
 }
-
-/************************************ RESPONSIVE PARA PANATLLAS GRANDES*******************************/
-@media (min-width:991px){
-  .btn{ margin-top: 30px; width: 20%; position: relative; left: 80%; }
+img:hover{
+  opacity: .4;
+}
+.img{
+  width: 100%;
+  height: 250px;
+}
+.hoverMasculino:hover .infoMasculino{
+  visibility: visible;
+}
+.hoverFemenino:hover .infoFemenino{
+  visibility: visible;
+}
+.hoverCamisas:hover .infoCamisas{
+  visibility: visible;
+}
+.hoverBlusas:hover .infoBlusas{
+  visibility: visible;
+}
+.hoverSudaderas:hover .infoSudaderas{
+  visibility: visible;
+}
+.hoverRInterior:hover .infoRInterior{
+  visibility: visible;
 }
