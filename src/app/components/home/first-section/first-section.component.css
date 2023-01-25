@@ -8,6 +8,10 @@
   z-index: 1;
   visibility: hidden;
 }
+.infoMasculino:hover, .infoFemenino:hover{
+  background-color: gray;
+  transition: linear all 0.6s;
+}
 .infoRInterior, .infoCamisas, .infoSudaderas, .infoBlusas{
   display: flex;
   flex-direction: column;
@@ -17,6 +21,10 @@
   bottom: 1px;
   z-index: 1;
   visibility: hidden;
+}
+.infoRInterior:hover, .infoCamisas:hover, .infoSudaderas:hover, .infoBlusas:hover{
+  background-color: gray;
+  transition: linear all 0.6s;
 }
 img:hover{
   opacity: .4;
@@ -42,4 +50,14 @@ img:hover{
 }
 .hoverRInterior:hover .infoRInterior{
   visibility: visible;
+}
+
+/********************************** RESPONSIVE PARA PANTALLAS MEDIANAS********************************/
+@media (max-width:990px){
+  .hoverFemenino{
+    margin-top: 20px;
+  }
+  .container{
+    margin-top: 25px !important;
+  }
 }

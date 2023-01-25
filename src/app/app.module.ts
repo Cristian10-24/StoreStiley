@@ -53,7 +53,7 @@ import { FooterComponent } from './components/footer/footer.component';
     ScoreComponent,
     ComplaintsAndClaimsComponent,
     SaleHistoryComponent,
-    FooterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
